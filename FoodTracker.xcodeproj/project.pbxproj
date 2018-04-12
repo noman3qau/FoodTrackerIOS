@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CADF412207DE9A300895F87 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADF411207DE9A300895F87 /* SplashViewController.swift */; };
+		2CADF414207E0AF300895F87 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADF413207E0AF300895F87 /* LoginViewController.swift */; };
 		B90DD9FC206D1EF60075EF4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90DD9FB206D1EF60075EF4F /* AppDelegate.swift */; };
 		B90DD9FE206D1EF60075EF4F /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90DD9FD206D1EF60075EF4F /* MealViewController.swift */; };
 		B90DDA01206D1EF60075EF4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90DD9FF206D1EF60075EF4F /* Main.storyboard */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CADF411207DE9A300895F87 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		2CADF413207E0AF300895F87 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B90DD9F8206D1EF60075EF4F /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90DD9FB206D1EF60075EF4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B90DD9FD206D1EF60075EF4F /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
@@ -86,9 +90,11 @@
 			isa = PBXGroup;
 			children = (
 				B90DD9FB206D1EF60075EF4F /* AppDelegate.swift */,
+				2CADF411207DE9A300895F87 /* SplashViewController.swift */,
+				2CADF413207E0AF300895F87 /* LoginViewController.swift */,
+				B991DC0E2075434C00D0BED3 /* MealTableViewController.swift */,
 				B90DD9FD206D1EF60075EF4F /* MealViewController.swift */,
 				B90DD9FF206D1EF60075EF4F /* Main.storyboard */,
-				B991DC0E2075434C00D0BED3 /* MealTableViewController.swift */,
 				B991DC0C2075011600D0BED3 /* MealTableViewCell.swift */,
 				B928D301206FFA9D0049F783 /* RatingControl.swift */,
 				B96F5B5A2073F11B00CFD623 /* Meal.swift */,
@@ -212,8 +218,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B96F5B5B2073F11B00CFD623 /* Meal.swift in Sources */,
+				2CADF412207DE9A300895F87 /* SplashViewController.swift in Sources */,
 				B90DD9FE206D1EF60075EF4F /* MealViewController.swift in Sources */,
 				B928D302206FFA9D0049F783 /* RatingControl.swift in Sources */,
+				2CADF414207E0AF300895F87 /* LoginViewController.swift in Sources */,
 				B90DD9FC206D1EF60075EF4F /* AppDelegate.swift in Sources */,
 				B991DC0F2075434C00D0BED3 /* MealTableViewController.swift in Sources */,
 				B991DC0D2075011600D0BED3 /* MealTableViewCell.swift in Sources */,

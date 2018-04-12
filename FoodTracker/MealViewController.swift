@@ -33,12 +33,11 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         
         // Setup view if editing an existing Meal
         if let meal = meal{
-            
             navigationItem.title=meal.name
             inputItemField.text=meal.name
             defaultImage.image=meal.photo
             ratingControl.rating=meal.rating
-            
+           
         }
         
         // Enable saveButton only if text field has a valid Meal name.

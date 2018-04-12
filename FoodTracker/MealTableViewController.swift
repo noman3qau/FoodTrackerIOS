@@ -55,6 +55,8 @@ class MealTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.navigationBar.isHidden = false
+        
         // Use the edit button item provided by table view controller.
         navigationItem.leftBarButtonItem = editButtonItem
         

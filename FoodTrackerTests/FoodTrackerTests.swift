@@ -8,7 +8,7 @@
 
 import XCTest
 
-@testable import TestIOS
+@testable import FoodTracker
 
 class TestIOSTests: XCTestCase {
     
