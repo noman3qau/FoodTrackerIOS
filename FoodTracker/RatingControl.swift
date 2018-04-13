@@ -18,7 +18,7 @@ import UIKit
         }
     }
     
-    @IBInspectable var startSize: CGSize=CGSize(width: 44.0, height: 44.0){
+    @IBInspectable var startSize: CGSize=CGSize(width: 44, height: 44){
         didSet{
             setupButtons()
         }
